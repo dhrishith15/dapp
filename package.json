@@ -1,0 +1,13 @@
+{
+  "name": "decentralised-ticketing-system",
+  "version": "1.0.0",
+  "dependencies": {
+    "web3": "^4.0.1",
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "hardhat": "^2.28.0",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0"
+  }
+}
