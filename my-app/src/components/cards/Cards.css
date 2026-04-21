@@ -1,0 +1,28 @@
+.status-bar {
+  background: #12122a;
+  padding: 10px 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.status-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 24px;
+  border-radius: 30px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.status-card.active {
+  background: rgba(0, 200, 100, 0.1);
+  border: 1px solid #00c864;
+  color: #00c864;
+}
+
+.status-card.inactive {
+  background: rgba(233, 69, 96, 0.1);
+  border: 1px solid #e94560;
+  color: #e94560;
+}

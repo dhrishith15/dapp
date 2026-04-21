@@ -1,0 +1,78 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  height: 65px;
+  background: linear-gradient(90deg, #0f0f1a, #1a1a2e);
+  border-bottom: 2px solid #e94560;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #e94560;
+  letter-spacing: 1px;
+}
+
+.navbar-brand span {
+  color: white;
+  margin-left: 6px;
+}
+
+.navbar-center {
+  flex: 1;
+  text-align: center;
+}
+
+.network-badge {
+  padding: 6px 18px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.network-badge.ok {
+  background: rgba(0, 200, 100, 0.15);
+  color: #00c864;
+  border: 1px solid #00c864;
+}
+
+.network-badge.warn {
+  background: rgba(233, 69, 96, 0.15);
+  color: #e94560;
+  border: 1px solid #e94560;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.wallet-address {
+  background: #16213e;
+  color: #a8dadc;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-family: monospace;
+  border: 1px solid #0f3460;
+}
+
+.connect-btn {
+  padding: 8px 20px;
+  background: #e94560;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.connect-btn:hover { background: #c73652; }
